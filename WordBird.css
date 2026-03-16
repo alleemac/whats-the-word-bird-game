@@ -63,6 +63,9 @@ hr {
     color: white;
     border-color:white;
 }
+
+/* TRY AGAIN BUTTON */
+
 .refresh-btn {
     margin: auto;
     padding: 10px 20px;
@@ -77,4 +80,54 @@ hr {
 .refresh-btn:hover {
     background-color: #0a250b; /* darker green on hover */
 
+}
+
+/* KEYBOARD */
+.keyboard-row {
+width: 400px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+}
+
+.key-tile {
+    border: 1px solid lightgray;
+    width: 36px;
+    height: 40px;
+    margin: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+
+    /* Text */
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.key-tile:hover {
+    background-color: #302935;
+}
+
+.enter-key-tile {
+    border: .5px solid lightgray;
+    width: 75px;
+    height: 40px;
+    margin: 1px;
+    border-radius: 3px;
+     cursor: pointer;
+
+    /* Text */
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.enter-key-tile:hover {
+        background-color: #302935;
 }
